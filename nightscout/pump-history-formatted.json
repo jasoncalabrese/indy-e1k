@@ -1,5 +1,49 @@
 [
   {
+    "_type": "CalBGForPH", 
+    "_description": "CalBGForPH 2016-11-13T15:59:18 head[2], body[0] op[0x0a]", 
+    "timestamp": "2016-11-13T15:59:18-08:00", 
+    "_body": "", 
+    "glucoseType": "Finger", 
+    "_head": "0a30", 
+    "enteredBy": "openaps://medtronic/723", 
+    "amount": 48, 
+    "medtronic": "mm://openaps/mm-format-ns-treatments/CalBGForPH", 
+    "eventType": "BG Check", 
+    "created_at": "2016-11-13T15:59:18-08:00", 
+    "_date": "92fb2f6d10", 
+    "glucose": 48
+  }, 
+  {
+    "raw_rate": {
+      "_type": "TempBasal", 
+      "temp": "absolute", 
+      "_description": "TempBasal 2016-11-13T15:58:24 head[2], body[1] op[0x33]", 
+      "timestamp": "2016-11-13T15:58:24-08:00", 
+      "_body": "00", 
+      "_head": "3300", 
+      "rate": 0, 
+      "_date": "98fa0f4d10"
+    }, 
+    "raw_duration": {
+      "_type": "TempBasalDuration", 
+      "_description": "TempBasalDuration 2016-11-13T15:58:24 head[2], body[0] op[0x16]", 
+      "timestamp": "2016-11-13T15:58:24-08:00", 
+      "_body": "", 
+      "_head": "1601", 
+      "duration (min)": 30, 
+      "_date": "98fa0f4d10"
+    }, 
+    "created_at": "2016-11-13T15:58:24-08:00", 
+    "enteredBy": "openaps://medtronic/723", 
+    "rate": 0, 
+    "eventType": "Temp Basal", 
+    "timestamp": "2016-11-13T15:58:24-08:00", 
+    "duration": "30", 
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal", 
+    "absolute": "0"
+  }, 
+  {
     "raw_rate": {
       "_type": "TempBasal", 
       "temp": "absolute", 
@@ -1073,34 +1117,5 @@
     "type": "fixed", 
     "created_at": "2016-11-13T10:00:03-08:00", 
     "_date": "83c00a0d10"
-  }, 
-  {
-    "_type": "Prime", 
-    "_description": "Prime 2016-11-13T09:52:19 head[5], body[0] op[0x03]", 
-    "notes": "Prime 723 ", 
-    "timestamp": "2016-11-13T09:52:19-08:00", 
-    "_body": "", 
-    "_head": "030000002f", 
-    "enteredBy": "openaps://medtronic/723", 
-    "amount": 4.7, 
-    "medtronic": "mm://openaps/mm-format-ns-treatments/Prime", 
-    "eventType": "Note", 
-    "fixed": 0, 
-    "type": "manual", 
-    "created_at": "2016-11-13T09:52:19-08:00", 
-    "_date": "93f4290d10"
-  }, 
-  {
-    "_type": "Rewind", 
-    "_description": "Rewind 2016-11-13T09:47:59 head[2], body[0] op[0x21]", 
-    "notes": "Rewind 723 ", 
-    "timestamp": "2016-11-13T09:47:59-08:00", 
-    "_body": "", 
-    "_head": "2100", 
-    "enteredBy": "openaps://medtronic/723", 
-    "medtronic": "mm://openaps/mm-format-ns-treatments/Rewind", 
-    "eventType": "Note", 
-    "created_at": "2016-11-13T09:47:59-08:00", 
-    "_date": "bbef090d10"
   }
 ]
