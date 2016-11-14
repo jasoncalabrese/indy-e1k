@@ -3,6 +3,35 @@
     "raw_rate": {
       "_type": "TempBasal", 
       "temp": "absolute", 
+      "_description": "TempBasal 2016-11-13T18:02:35 head[2], body[1] op[0x33]", 
+      "timestamp": "2016-11-13T18:02:35-08:00", 
+      "_body": "00", 
+      "_head": "330b", 
+      "rate": 0.275, 
+      "_date": "a3c2124d10"
+    }, 
+    "raw_duration": {
+      "_type": "TempBasalDuration", 
+      "_description": "TempBasalDuration 2016-11-13T18:02:35 head[2], body[0] op[0x16]", 
+      "timestamp": "2016-11-13T18:02:35-08:00", 
+      "_body": "", 
+      "_head": "1601", 
+      "duration (min)": 30, 
+      "_date": "a3c2124d10"
+    }, 
+    "created_at": "2016-11-13T18:02:35-08:00", 
+    "enteredBy": "openaps://medtronic/723", 
+    "rate": 0.275, 
+    "eventType": "Temp Basal", 
+    "timestamp": "2016-11-13T18:02:35-08:00", 
+    "duration": "30", 
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal", 
+    "absolute": "0.275"
+  }, 
+  {
+    "raw_rate": {
+      "_type": "TempBasal", 
+      "temp": "absolute", 
       "_description": "TempBasal 2016-11-13T17:43:45 head[2], body[1] op[0x33]", 
       "timestamp": "2016-11-13T17:43:45-08:00", 
       "_body": "00", 
@@ -813,177 +842,5 @@
     "duration": "30", 
     "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal", 
     "absolute": "0.55"
-  }, 
-  {
-    "raw_rate": {
-      "_type": "TempBasal", 
-      "temp": "absolute", 
-      "_description": "TempBasal 2016-11-13T12:01:41 head[2], body[1] op[0x33]", 
-      "timestamp": "2016-11-13T12:01:41-08:00", 
-      "_body": "00", 
-      "_head": "3355", 
-      "rate": 2.125, 
-      "_date": "a9c10c4d10"
-    }, 
-    "raw_duration": {
-      "_type": "TempBasalDuration", 
-      "_description": "TempBasalDuration 2016-11-13T12:01:41 head[2], body[0] op[0x16]", 
-      "timestamp": "2016-11-13T12:01:41-08:00", 
-      "_body": "", 
-      "_head": "1601", 
-      "duration (min)": 30, 
-      "_date": "a9c10c4d10"
-    }, 
-    "created_at": "2016-11-13T12:01:41-08:00", 
-    "enteredBy": "openaps://medtronic/723", 
-    "rate": 2.125, 
-    "eventType": "Temp Basal", 
-    "timestamp": "2016-11-13T12:01:41-08:00", 
-    "duration": "30", 
-    "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal", 
-    "absolute": "2.125"
-  }, 
-  {
-    "bolus": {
-      "programmed": 1.2, 
-      "_type": "Bolus", 
-      "_description": "Bolus 2016-11-13T12:00:49 head[8], body[0] op[0x01]", 
-      "timestamp": "2016-11-13T12:00:49-08:00", 
-      "_body": "", 
-      "_head": "0100300030004600", 
-      "amount": 1.2, 
-      "unabsorbed": 1.75, 
-      "duration": 0, 
-      "type": "normal", 
-      "_date": "b1c02c6d10"
-    }, 
-    "timestamp": "2016-11-13T12:00:49-08:00", 
-    "created_at": "2016-11-13T12:00:49-08:00", 
-    "enteredBy": "openaps://medtronic/723", 
-    "insulin": "1.2", 
-    "eventType": "Correction Bolus", 
-    "duration": "0", 
-    "notes": "Normal bolus (solo, no bolus wizard).\nProgrammed bolus 1.2\nDelivered bolus 1.2\nPercent delivered:  100%", 
-    "medtronic": "mm://openaps/mm-format-ns-treatments/Correction Bolus"
-  }, 
-  {
-    "raw_rate": {
-      "_type": "TempBasal", 
-      "temp": "absolute", 
-      "_description": "TempBasal 2016-11-13T11:51:27 head[2], body[1] op[0x33]", 
-      "timestamp": "2016-11-13T11:51:27-08:00", 
-      "_body": "00", 
-      "_head": "3316", 
-      "rate": 0.55, 
-      "_date": "9bf30b4d10"
-    }, 
-    "raw_duration": {
-      "_type": "TempBasalDuration", 
-      "_description": "TempBasalDuration 2016-11-13T11:51:27 head[2], body[0] op[0x16]", 
-      "timestamp": "2016-11-13T11:51:27-08:00", 
-      "_body": "", 
-      "_head": "1601", 
-      "duration (min)": 30, 
-      "_date": "9bf30b4d10"
-    }, 
-    "created_at": "2016-11-13T11:51:27-08:00", 
-    "enteredBy": "openaps://medtronic/723", 
-    "rate": 0.55, 
-    "eventType": "Temp Basal", 
-    "timestamp": "2016-11-13T11:51:27-08:00", 
-    "duration": "30", 
-    "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal", 
-    "absolute": "0.55"
-  }, 
-  {
-    "carbs": "60", 
-    "ratio": "22", 
-    "bolus": {
-      "_type": "Bolus", 
-      "_description": "Bolus 2016-11-13T11:47:06 head[8], body[0] op[0x01]", 
-      "timestamp": "2016-11-13T11:47:06-08:00", 
-      "_body": "", 
-      "appended": [
-        {
-          "_type": "UnabsorbedInsulinBolus", 
-          "_description": "UnabsorbedInsulinBolus unknown head[8], body[0] op[0x5c]", 
-          "_body": "", 
-          "_head": "5c08103cc024b4c0", 
-          "data": [
-            {
-              "amount": 0.4, 
-              "age": 60
-            }, 
-            {
-              "amount": 0.9, 
-              "age": 180
-            }
-          ], 
-          "_date": ""
-        }
-      ], 
-      "programmed": 1.5, 
-      "_head": "01003c003c000e00", 
-      "amount": 1.5, 
-      "unabsorbed": 0.35, 
-      "duration": 0, 
-      "type": "normal", 
-      "_date": "86ef2b0d10"
-    }, 
-    "timestamp": "2016-11-13T11:47:06-08:00", 
-    "created_at": "2016-11-13T11:47:06-08:00", 
-    "wizard": {
-      "_type": "BolusWizard", 
-      "bg": 0, 
-      "bg_target_low": 110, 
-      "_description": "BolusWizard 2016-11-13T11:47:06 head[2], body[15] op[0x5b]", 
-      "timestamp": "2016-11-13T11:47:06-08:00", 
-      "_body": "3c5000dc506e00006c000000006cb4", 
-      "bg_target_high": 180, 
-      "carb_ratio": 22, 
-      "food_estimate": 2.7, 
-      "unabsorbed_insulin_total": 0, 
-      "correction_estimate": 0, 
-      "carb_input": 60, 
-      "_head": "5b00", 
-      "bolus_estimate": 2.7, 
-      "sensitivity": 80, 
-      "_date": "86ef0b0d10"
-    }, 
-    "enteredBy": "openaps://medtronic/723", 
-    "insulin": "1.5", 
-    "eventType": "Meal Bolus", 
-    "duration": "0", 
-    "notes": "Normal bolus with wizard.\nProgrammed bolus 1.5\nDelivered bolus 1.5\nPercent delivered:  100%\nFood estimate 2.7\nCorrection estimate 0\nBolus estimate 2.7\nTarget low 110\nTarget high 180\nHypothetical glucose delta -120", 
-    "medtronic": "mm://openaps/mm-format-ns-treatments/Meal Bolus"
-  }, 
-  {
-    "raw_rate": {
-      "_type": "TempBasal", 
-      "temp": "absolute", 
-      "_description": "TempBasal 2016-11-13T11:43:45 head[2], body[1] op[0x33]", 
-      "timestamp": "2016-11-13T11:43:45-08:00", 
-      "_body": "00", 
-      "_head": "3323", 
-      "rate": 0.875, 
-      "_date": "adeb0b4d10"
-    }, 
-    "raw_duration": {
-      "_type": "TempBasalDuration", 
-      "_description": "TempBasalDuration 2016-11-13T11:43:45 head[2], body[0] op[0x16]", 
-      "timestamp": "2016-11-13T11:43:45-08:00", 
-      "_body": "", 
-      "_head": "1601", 
-      "duration (min)": 30, 
-      "_date": "adeb0b4d10"
-    }, 
-    "created_at": "2016-11-13T11:43:45-08:00", 
-    "enteredBy": "openaps://medtronic/723", 
-    "rate": 0.875, 
-    "eventType": "Temp Basal", 
-    "timestamp": "2016-11-13T11:43:45-08:00", 
-    "duration": "30", 
-    "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal", 
-    "absolute": "0.875"
   }
 ]
