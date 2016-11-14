@@ -2,6 +2,25 @@
   {
     "_type": "TempBasalDuration", 
     "duration (min)": 30, 
+    "_description": "TempBasalDuration 2016-11-13T20:17:32 head[2], body[0] op[0x16]", 
+    "timestamp": "2016-11-13T20:17:32", 
+    "_body": "", 
+    "_head": "1601", 
+    "_date": "a0d1144d10"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2016-11-13T20:17:32 head[2], body[1] op[0x33]", 
+    "timestamp": "2016-11-13T20:17:32", 
+    "_body": "00", 
+    "_head": "331c", 
+    "rate": 0.7, 
+    "_date": "a0d1144d10"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "duration (min)": 30, 
     "_description": "TempBasalDuration 2016-11-13T20:02:24 head[2], body[0] op[0x16]", 
     "timestamp": "2016-11-13T20:02:24", 
     "_body": "", 
@@ -3331,31 +3350,5 @@
     "_head": "331a", 
     "rate": 0.65, 
     "_date": "b3da114c10"
-  }, 
-  {
-    "programmed": 0.6, 
-    "_type": "Bolus", 
-    "_description": "Bolus 2016-11-12T17:17:24 head[8], body[0] op[0x01]", 
-    "timestamp": "2016-11-12T17:17:24", 
-    "_body": "", 
-    "_head": "0100180018002e00", 
-    "amount": 0.6, 
-    "unabsorbed": 1.15, 
-    "duration": 0, 
-    "type": "normal", 
-    "_date": "98d1316c10"
-  }, 
-  {
-    "programmed": 0.6, 
-    "_type": "Bolus", 
-    "_description": "Bolus 2016-11-12T17:08:38 head[8], body[0] op[0x01]", 
-    "timestamp": "2016-11-12T17:08:38", 
-    "_body": "", 
-    "_head": "0100180018001800", 
-    "amount": 0.6, 
-    "unabsorbed": 0.6, 
-    "duration": 0, 
-    "type": "normal", 
-    "_date": "a6c8316c10"
   }
 ]
