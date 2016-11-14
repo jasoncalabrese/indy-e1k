@@ -1,0 +1,38 @@
+{
+  "bg": 123, 
+  "temp": "absolute", 
+  "snoozeBG": 98, 
+  "recieved": true, 
+  "predBGs": {
+    "IOB": [
+      123, 
+      120, 
+      118, 
+      116, 
+      113, 
+      111, 
+      109, 
+      108, 
+      106, 
+      105, 
+      104, 
+      103, 
+      102, 
+      102, 
+      101, 
+      101, 
+      100, 
+      100, 
+      100, 
+      99
+    ]
+  }, 
+  "reason": "COB: 0, Dev: -14, BGI: -0.48, ISF: 88, Target: 80; Eventual BG 98 > 80 but Min. Delta -2.78 < Exp. Delta -1.5; setting current basal of 0.725 as temp", 
+  "rate": 0.7, 
+  "COB": 0, 
+  "eventualBG": 98, 
+  "timestamp": "2016-11-13T20:17:30.510593", 
+  "duration": 30, 
+  "tick": -2, 
+  "IOB": 0.126
+}
