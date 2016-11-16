@@ -1,18 +1,18 @@
 {
-  "bg": 153, 
+  "bg": 149, 
   "temp": "absolute", 
-  "snoozeBG": 119, 
+  "snoozeBG": 115, 
   "predBGs": {
     "IOB": [
-      153, 
-      148, 
-      144, 
-      140, 
-      136, 
-      132, 
-      128, 
-      125, 
-      122, 
+      149, 
+      145, 
+      141, 
+      137, 
+      133, 
+      130, 
+      126, 
+      124, 
+      121, 
       119, 
       117, 
       115, 
@@ -20,20 +20,21 @@
       112, 
       111, 
       110, 
+      109, 
       108, 
       107, 
       106, 
-      106, 
+      105, 
       105, 
       104, 
-      103, 
-      103, 
-      102
+      104, 
+      104, 
+      103
     ]
   }, 
-  "reason": "COB: 0, Dev: -13, BGI: -2.55, ISF: 78, Target: 109; Eventual BG 105 < 109, bolus snooze: eventual BG range 105-119, temp 0.5 ~ req 0.5U/hr", 
+  "reason": "COB: 0, Dev: -11, BGI: -2.49, ISF: 79, Target: 110; Eventual BG 105 < 110, bolus snooze: eventual BG range 105-115, temp 0.5 ~ req 0.5U/hr", 
   "COB": 0, 
   "eventualBG": 105, 
-  "tick": -5, 
-  "IOB": 0.451
+  "tick": -4, 
+  "IOB": 0.413
 }
