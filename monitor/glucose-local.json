@@ -1,6 +1,38 @@
 [
   {
     "trend_arrow": "DOUBLE_DOWN", 
+    "display_time": "2016-11-16T20:47:13-08:00", 
+    "noise": 1, 
+    "direction": "DoubleDown", 
+    "system_time": "2016-11-17T04:34:32-08:00", 
+    "sgv": 135, 
+    "dateString": "2016-11-16T20:47:13-08:00", 
+    "device": "openaps://indy-e1/cgm", 
+    "unfiltered": 119376, 
+    "rssi": 201, 
+    "date": 1479358033000.0, 
+    "filtered": 131968, 
+    "type": "sgv", 
+    "glucose": 135
+  }, 
+  {
+    "trend_arrow": "DOUBLE_DOWN", 
+    "display_time": "2016-11-16T20:42:13-08:00", 
+    "noise": 1, 
+    "direction": "DoubleDown", 
+    "system_time": "2016-11-17T04:29:32-08:00", 
+    "sgv": 144, 
+    "dateString": "2016-11-16T20:42:13-08:00", 
+    "device": "openaps://indy-e1/cgm", 
+    "unfiltered": 125648, 
+    "rssi": 195, 
+    "date": 1479357733000.0, 
+    "filtered": 146208, 
+    "type": "sgv", 
+    "glucose": 144
+  }, 
+  {
+    "trend_arrow": "DOUBLE_DOWN", 
     "display_time": "2016-11-16T20:37:13-08:00", 
     "noise": 1, 
     "direction": "DoubleDown", 
@@ -62,37 +94,5 @@
     "filtered": 180448, 
     "type": "sgv", 
     "glucose": 219
-  }, 
-  {
-    "trend_arrow": "45_UP", 
-    "display_time": "2016-11-16T20:17:13-08:00", 
-    "noise": 1, 
-    "direction": "FortyFiveUp", 
-    "system_time": "2016-11-17T04:04:32-08:00", 
-    "sgv": 226, 
-    "dateString": "2016-11-16T20:17:13-08:00", 
-    "device": "openaps://indy-e1/cgm", 
-    "unfiltered": 183712, 
-    "rssi": 202, 
-    "date": 1479356233000.0, 
-    "filtered": 176352, 
-    "type": "sgv", 
-    "glucose": 226
-  }, 
-  {
-    "trend_arrow": "45_UP", 
-    "display_time": "2016-11-16T20:12:13-08:00", 
-    "noise": 1, 
-    "direction": "FortyFiveUp", 
-    "system_time": "2016-11-17T03:59:32-08:00", 
-    "sgv": 217, 
-    "dateString": "2016-11-16T20:12:13-08:00", 
-    "device": "openaps://indy-e1/cgm", 
-    "unfiltered": 177824, 
-    "rssi": 199, 
-    "date": 1479355933000.0, 
-    "filtered": 169888, 
-    "type": "sgv", 
-    "glucose": 217
   }
 ]
