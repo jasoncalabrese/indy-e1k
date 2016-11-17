@@ -1,47 +1,47 @@
 [
   {
-    "created_at": "2016-11-17T06:28:42.312Z", 
+    "created_at": "2016-11-17T06:42:55.639Z", 
     "mmtune": {
       "scanDetails": [
         [
           "916.540", 
-          3, 
-          -96
+          5, 
+          -79
         ], 
         [
           "916.564", 
-          4, 
-          -68
+          5, 
+          -72
         ], 
         [
           "916.588", 
           5, 
-          -59
+          -71
         ], 
         [
           "916.612", 
           5, 
-          -59
+          -71
         ], 
         [
           "916.636", 
           5, 
-          -59
+          -71
         ], 
         [
           "916.660", 
           5, 
-          -61
+          -72
         ], 
         [
           "916.684", 
           5, 
-          -74
+          -79
         ]
       ], 
       "setFreq": 916.636, 
       "usedDefault": false, 
-      "timestamp": "2016-11-17T06:26:00.000Z"
+      "timestamp": "2016-11-17T06:40:23.000Z"
     }, 
     "pump": {
       "battery": {
@@ -50,134 +50,122 @@
       }, 
       "status": {
         "status": "normal", 
-        "timestamp": "2016-11-17T06:26:27.000Z", 
+        "timestamp": "2016-11-17T06:40:56.000Z", 
         "bolusing": false, 
         "suspended": false
       }, 
-      "reservoir": 104.025, 
-      "clock": "2016-11-16T22:26:17-08:00"
+      "reservoir": 103.85, 
+      "clock": "2016-11-16T22:40:36-08:00"
     }, 
     "openaps": {
       "suggested": {
-        "bg": 142, 
+        "bg": 112, 
         "temp": "absolute", 
-        "snoozeBG": 72, 
-        "timestamp": "2016-11-17T06:28:34.000Z", 
+        "snoozeBG": 29, 
+        "timestamp": "2016-11-17T06:42:47.000Z", 
         "predBGs": {
           "aCOB": [
-            142, 
-            143, 
-            144, 
-            144, 
-            144, 
-            144, 
-            144, 
-            144, 
-            143, 
-            143, 
-            142, 
-            142, 
-            142, 
-            141, 
-            141, 
-            141, 
-            140, 
-            139, 
-            138, 
-            137, 
-            136, 
-            136, 
-            135, 
-            135, 
-            135, 
-            135, 
-            136, 
-            136, 
-            137, 
-            137, 
-            138, 
-            139, 
-            139, 
-            140, 
-            140, 
-            141
+            112, 
+            111, 
+            110, 
+            109, 
+            108, 
+            107, 
+            105, 
+            104, 
+            103, 
+            103, 
+            103, 
+            103, 
+            103, 
+            103, 
+            103, 
+            102, 
+            102, 
+            101, 
+            101, 
+            102, 
+            102, 
+            103, 
+            104, 
+            105, 
+            106, 
+            107, 
+            109, 
+            110, 
+            111, 
+            113, 
+            114, 
+            115, 
+            115, 
+            116, 
+            117, 
+            117, 
+            117, 
+            118
           ], 
           "IOB": [
-            142, 
-            134, 
-            125, 
-            117, 
-            110, 
+            112, 
             102, 
-            95, 
-            89, 
+            92, 
             83, 
-            77, 
-            72, 
-            68, 
-            64, 
-            61, 
+            74, 
+            66, 
             59, 
-            56, 
-            54, 
-            53, 
             52, 
-            51, 
-            50, 
-            49, 
-            49, 
-            49, 
-            49, 
-            49, 
-            49, 
-            50, 
-            50, 
-            51, 
-            52, 
-            52, 
-            53, 
-            53, 
-            54, 
-            54, 
-            54, 
-            55
+            46, 
+            41, 
+            39, 
+            39, 
+            39, 
+            39, 
+            39, 
+            39, 
+            39, 
+            39, 
+            39, 
+            39, 
+            39, 
+            39, 
+            39, 
+            39, 
+            39, 
+            39, 
+            39, 
+            39, 
+            39, 
+            39, 
+            39, 
+            40, 
+            40, 
+            41, 
+            42, 
+            42, 
+            42, 
+            43
           ]
         }, 
-        "reason": "COB: 16, Dev: -12, BGI: -5.2, ISF: 80, Target: 110; Eventual BG 43 < 110, setting -0.975U/hr, but 23m left and 0 ~ req 0U/hr: no action required", 
-        "COB": 16, 
-        "eventualBG": 43, 
-        "tick": -9, 
-        "IOB": 1.086
+        "reason": "COB: 14, Dev: -30, BGI: -5.44, ISF: 80, Target: 110; Eventual BG 10 < 110, setting -3.1U/hr, but 30m left and 0 ~ req 0U/hr: no action required", 
+        "COB": 14, 
+        "eventualBG": 10, 
+        "tick": -7, 
+        "IOB": 0.895
       }, 
       "iob": {
-        "netbasalinsulin": 2.25, 
-        "timestamp": "2016-11-17T06:26:17.000Z", 
-        "activity": 0.013, 
-        "basaliob": 0.802, 
-        "hightempinsulin": 2.75, 
-        "bolussnooze": 0.241, 
-        "iob": 1.086
-      }, 
-      "enacted": {
-        "bg": 179, 
-        "temp": "absolute", 
-        "snoozeBG": 177, 
-        "recieved": true, 
-        "reason": "COB: 20, Dev: 69, BGI: -5.12, ISF: 80, Target: 110; Eventual BG 177 >= 110, temp 2.75<2.6U/hr", 
-        "rate": 2.6, 
-        "COB": 20, 
-        "eventualBG": 177, 
-        "timestamp": "2016-11-17T06:02:08.000Z", 
-        "duration": 30, 
-        "tick": "+12", 
-        "IOB": 1.265
+        "netbasalinsulin": 2.05, 
+        "timestamp": "2016-11-17T06:40:36.000Z", 
+        "activity": 0.0136, 
+        "basaliob": 0.632, 
+        "hightempinsulin": 2.55, 
+        "bolussnooze": 0.158, 
+        "iob": 0.895
       }
     }, 
     "uploader": {
       "battery": 100, 
-      "batteryVoltage": 4374
+      "batteryVoltage": 4373
     }, 
     "device": "openaps://indy-e1", 
-    "_id": "582d4e1a97f66ace591c57f5"
+    "_id": "582d516f97f66ace591c57fa"
   }
 ]
