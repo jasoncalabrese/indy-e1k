@@ -1,6 +1,6 @@
 [
   {
-    "created_at": "2016-11-18T22:13:37.626Z", 
+    "created_at": "2016-11-18T22:20:21.077Z", 
     "mmtune": {
       "scanDetails": [
         [
@@ -11,32 +11,37 @@
         [
           "916.588", 
           5, 
-          -57
+          -59
         ], 
         [
           "916.612", 
           5, 
-          -66
+          -57
         ], 
         [
           "916.636", 
           5, 
-          -60
+          -58
         ], 
         [
           "916.660", 
           5, 
-          -61
+          -58
         ], 
         [
           "916.684", 
           5, 
-          -62
+          -60
+        ], 
+        [
+          "916.708", 
+          5, 
+          -74
         ]
       ], 
-      "setFreq": 916.588, 
+      "setFreq": 916.612, 
       "usedDefault": false, 
-      "timestamp": "2016-11-18T22:10:17.000Z"
+      "timestamp": "2016-11-18T22:17:18.000Z"
     }, 
     "pump": {
       "battery": {
@@ -45,58 +50,72 @@
       }, 
       "status": {
         "status": "normal", 
-        "timestamp": "2016-11-18T22:10:41.000Z", 
+        "timestamp": "2016-11-18T22:17:39.000Z", 
         "bolusing": false, 
         "suspended": false
       }, 
-      "reservoir": 55.55, 
-      "clock": "2016-11-18T14:10:33-08:00"
+      "reservoir": 55.45, 
+      "clock": "2016-11-18T14:17:31-08:00"
     }, 
     "openaps": {
       "suggested": {
-        "bg": 234, 
+        "bg": 225, 
         "temp": "absolute", 
-        "snoozeBG": -31, 
-        "timestamp": "2016-11-18T22:12:50.000Z", 
-        "rate": 0, 
-        "reason": "COB: 0, Dev: -95, BGI: -10.38, ISF: 69, Target: 103; Eventual BG -54 < 103, setting -7.025U/hr", 
+        "snoozeBG": 68, 
+        "timestamp": "2016-11-18T22:19:56.000Z", 
+        "predBGs": {
+          "IOB": [
+            225, 
+            216, 
+            206, 
+            196, 
+            186, 
+            177, 
+            167, 
+            157, 
+            147, 
+            138, 
+            128, 
+            120, 
+            111, 
+            103, 
+            96, 
+            90, 
+            84, 
+            79, 
+            75, 
+            72, 
+            69, 
+            66, 
+            64, 
+            62, 
+            61, 
+            59, 
+            58, 
+            58, 
+            57
+          ]
+        }, 
+        "reason": "COB: 0, Dev: 9, BGI: -10.82, ISF: 70, Target: 103; Eventual BG 51 < 103, setting -1.25U/hr, but 25m left and 0 ~ req 0U/hr: no action required", 
         "COB": 0, 
-        "eventualBG": -54, 
-        "duration": 30, 
-        "tick": -46, 
-        "IOB": 2.796
+        "eventualBG": 51, 
+        "tick": -7, 
+        "IOB": 2.63
       }, 
       "iob": {
-        "netbasalinsulin": 2.75, 
-        "timestamp": "2016-11-18T22:10:33.000Z", 
-        "activity": 0.0301, 
-        "basaliob": 1.928, 
-        "hightempinsulin": 2.75, 
-        "bolussnooze": 0.223, 
-        "iob": 2.796
+        "netbasalinsulin": 2.8, 
+        "timestamp": "2016-11-18T22:17:31.000Z", 
+        "activity": 0.0311, 
+        "basaliob": 1.856, 
+        "hightempinsulin": 2.85, 
+        "bolussnooze": 0.161, 
+        "iob": 2.63
       }, 
       "enacted": {
         "bg": 234, 
         "temp": "absolute", 
         "snoozeBG": -31, 
         "recieved": true, 
-        "predBGs": {
-          "IOB": [
-            234, 
-            191, 
-            150, 
-            112, 
-            77, 
-            45, 
-            39, 
-            39, 
-            39, 
-            39, 
-            39, 
-            39, 
-            39
-          ]
-        }, 
         "reason": "COB: 0, Dev: -95, BGI: -10.38, ISF: 69, Target: 103; Eventual BG -54 < 103, setting -7.025U/hr", 
         "rate": 0, 
         "COB": 0, 
@@ -108,10 +127,10 @@
       }
     }, 
     "uploader": {
-      "battery": 59, 
-      "batteryVoltage": 3769
+      "battery": 56, 
+      "batteryVoltage": 3741
     }, 
     "device": "openaps://indy-e1", 
-    "_id": "582f7d110e76b898408f19fb"
+    "_id": "582f7ea50e76b898408f19fc"
   }
 ]
