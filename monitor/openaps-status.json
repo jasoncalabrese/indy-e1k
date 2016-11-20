@@ -7,30 +7,30 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-11-20T01:29:22.000Z", 
+      "timestamp": "2016-11-20T01:33:27.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
     "reservoir": 98.8, 
-    "clock": "2016-11-19T17:29:14-08:00"
+    "clock": "2016-11-19T17:33:19-08:00"
   }, 
   "uploader": {
-    "battery": 56, 
-    "batteryVoltage": 3744
+    "battery": 54, 
+    "batteryVoltage": 3718
   }, 
   "openaps": {
     "suggested": {
-      "timestamp": "2016-11-20T01:31:06.000Z", 
-      "reason": "BG data is too old, or clock set incorrectly.  Your CGM time is Sat Nov 19 2016 17:16:59 GMT-0800 (PST) but your system time is Sat Nov 19 2016 17:31:06 GMT-0800 (PST)"
+      "timestamp": "2016-11-20T01:34:59.000Z", 
+      "reason": "BG data is too old, or clock set incorrectly.  Your CGM time is Sat Nov 19 2016 17:16:59 GMT-0800 (PST) but your system time is Sat Nov 19 2016 17:34:59 GMT-0800 (PST)"
     }, 
     "iob": {
       "netbasalinsulin": 2.65, 
-      "timestamp": "2016-11-20T01:29:14.000Z", 
-      "activity": 0.0252, 
-      "basaliob": 1.038, 
+      "timestamp": "2016-11-20T01:33:19.000Z", 
+      "activity": 0.0246, 
+      "basaliob": 0.888, 
       "hightempinsulin": 2.95, 
       "bolussnooze": 0, 
-      "iob": 1.038
+      "iob": 0.888
     }, 
     "enacted": {
       "bg": 187, 
@@ -52,7 +52,7 @@
       [
         "916.540", 
         5, 
-        -37
+        -36
       ], 
       [
         "916.564", 
@@ -66,8 +66,8 @@
       ], 
       [
         "916.612", 
-        5, 
-        -32
+        2, 
+        -73
       ], 
       [
         "916.636", 
@@ -76,17 +76,17 @@
       ], 
       [
         "916.660", 
-        3, 
-        -60
+        5, 
+        -34
       ], 
       [
         "916.684", 
-        5, 
-        -42
+        1, 
+        -87
       ]
     ], 
     "setFreq": 916.636, 
-    "timestamp": "2016-11-20T01:29:01.000Z", 
+    "timestamp": "2016-11-20T01:33:03.000Z", 
     "usedDefault": false
   }
 }
