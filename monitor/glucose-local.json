@@ -1,6 +1,38 @@
 [
   {
     "trend_arrow": "45_DOWN", 
+    "display_time": "2016-11-20T00:06:57-08:00", 
+    "noise": 1, 
+    "direction": "FortyFiveDown", 
+    "system_time": "2016-11-20T07:54:16-08:00", 
+    "sgv": 130, 
+    "dateString": "2016-11-20T00:06:57-08:00", 
+    "device": "openaps://indy-e1/cgm", 
+    "unfiltered": 122464, 
+    "rssi": 188, 
+    "date": 1479629217000.0, 
+    "filtered": 128528, 
+    "type": "sgv", 
+    "glucose": 130
+  }, 
+  {
+    "trend_arrow": "45_DOWN", 
+    "display_time": "2016-11-20T00:01:57-08:00", 
+    "noise": 1, 
+    "direction": "FortyFiveDown", 
+    "system_time": "2016-11-20T07:49:16-08:00", 
+    "sgv": 137, 
+    "dateString": "2016-11-20T00:01:57-08:00", 
+    "device": "openaps://indy-e1/cgm", 
+    "unfiltered": 127904, 
+    "rssi": 185, 
+    "date": 1479628917000.0, 
+    "filtered": 131744, 
+    "type": "sgv", 
+    "glucose": 137
+  }, 
+  {
+    "trend_arrow": "45_DOWN", 
     "display_time": "2016-11-19T23:56:57-08:00", 
     "noise": 1, 
     "direction": "FortyFiveDown", 
@@ -62,37 +94,5 @@
     "filtered": 168640, 
     "type": "sgv", 
     "glucose": 168
-  }, 
-  {
-    "trend_arrow": "DOUBLE_DOWN", 
-    "display_time": "2016-11-19T23:36:58-08:00", 
-    "noise": 1, 
-    "direction": "DoubleDown", 
-    "system_time": "2016-11-20T07:24:16-08:00", 
-    "sgv": 181, 
-    "dateString": "2016-11-19T23:36:58-08:00", 
-    "device": "openaps://indy-e1/cgm", 
-    "unfiltered": 160896, 
-    "rssi": 180, 
-    "date": 1479627418000.0, 
-    "filtered": 184992, 
-    "type": "sgv", 
-    "glucose": 181
-  }, 
-  {
-    "trend_arrow": "DOUBLE_DOWN", 
-    "display_time": "2016-11-19T23:31:58-08:00", 
-    "noise": 1, 
-    "direction": "DoubleDown", 
-    "system_time": "2016-11-20T07:19:17-08:00", 
-    "sgv": 198, 
-    "dateString": "2016-11-19T23:31:58-08:00", 
-    "device": "openaps://indy-e1/cgm", 
-    "unfiltered": 174176, 
-    "rssi": 447, 
-    "date": 1479627118000.0, 
-    "filtered": 200928, 
-    "type": "sgv", 
-    "glucose": 198
   }
 ]
