@@ -1,47 +1,47 @@
 [
   {
-    "created_at": "2016-11-20T02:55:55.384Z", 
+    "created_at": "2016-11-20T03:01:32.122Z", 
     "mmtune": {
       "scanDetails": [
         [
           "916.540", 
           5, 
-          -72
+          -82
         ], 
         [
           "916.564", 
           5, 
-          -66
+          -76
         ], 
         [
           "916.588", 
-          5, 
-          -62
+          4, 
+          -79
         ], 
         [
           "916.612", 
           5, 
-          -67
+          -74
         ], 
         [
           "916.636", 
-          4, 
-          -70
+          5, 
+          -75
         ], 
         [
           "916.660", 
           5, 
-          -67
+          -76
         ], 
         [
           "916.684", 
           5, 
-          -76
+          -81
         ]
       ], 
-      "setFreq": 916.588, 
+      "setFreq": 916.612, 
       "usedDefault": false, 
-      "timestamp": "2016-11-20T02:53:07.000Z"
+      "timestamp": "2016-11-20T02:59:04.000Z"
     }, 
     "pump": {
       "battery": {
@@ -50,68 +50,64 @@
       }, 
       "status": {
         "status": "normal", 
-        "timestamp": "2016-11-20T02:53:31.000Z", 
+        "timestamp": "2016-11-20T02:59:28.000Z", 
         "bolusing": false, 
         "suspended": false
       }, 
-      "reservoir": 97.65, 
-      "clock": "2016-11-19T18:53:24-08:00"
+      "reservoir": 97.575, 
+      "clock": "2016-11-19T18:59:20-08:00"
     }, 
     "openaps": {
       "suggested": {
         "bg": 122, 
         "temp": "absolute", 
-        "snoozeBG": 130, 
-        "timestamp": "2016-11-20T02:55:19.000Z", 
-        "rate": 0.675, 
-        "reason": "COB: 0, Dev: -18, BGI: -0.46, ISF: 77, Target: 108; Eventual BG 101 < 108, bolus snooze: eventual BG range 101-130; setting current basal of 0.675 as temp", 
+        "snoozeBG": 127, 
+        "timestamp": "2016-11-20T03:01:16.000Z", 
+        "predBGs": {
+          "IOB": [
+            122, 
+            120, 
+            118, 
+            116, 
+            114, 
+            113, 
+            111, 
+            110, 
+            110, 
+            109, 
+            109, 
+            108, 
+            108, 
+            108, 
+            108, 
+            108, 
+            108, 
+            107, 
+            107, 
+            107, 
+            106
+          ]
+        }, 
+        "reason": "COB: 0, Dev: -14, BGI: -0.19, ISF: 76, Target: 108; Eventual BG 105 < 108, bolus snooze: eventual BG range 105-127, temp 0.675 ~ req 0.675U/hr", 
         "COB": 0, 
-        "eventualBG": 101, 
-        "duration": 30, 
+        "eventualBG": 105, 
         "tick": "+0", 
-        "IOB": 0.039
+        "IOB": 0.036
       }, 
       "iob": {
-        "netbasalinsulin": 0.9, 
-        "timestamp": "2016-11-20T02:53:24.000Z", 
-        "activity": 0.0012, 
-        "basaliob": -0.464, 
-        "hightempinsulin": 1.65, 
-        "bolussnooze": 0.252, 
-        "iob": 0.039
+        "netbasalinsulin": 0.65, 
+        "timestamp": "2016-11-20T02:59:20.000Z", 
+        "activity": 0.0005, 
+        "basaliob": -0.441, 
+        "hightempinsulin": 1.4, 
+        "bolussnooze": 0.189, 
+        "iob": 0.036
       }, 
       "enacted": {
         "bg": 122, 
         "temp": "absolute", 
         "snoozeBG": 130, 
         "recieved": true, 
-        "predBGs": {
-          "IOB": [
-            122, 
-            119, 
-            116, 
-            114, 
-            112, 
-            110, 
-            109, 
-            107, 
-            106, 
-            105, 
-            105, 
-            105, 
-            104, 
-            104, 
-            104, 
-            104, 
-            104, 
-            104, 
-            104, 
-            103, 
-            103, 
-            103, 
-            102
-          ]
-        }, 
         "reason": "COB: 0, Dev: -18, BGI: -0.46, ISF: 77, Target: 108; Eventual BG 101 < 108, bolus snooze: eventual BG range 101-130; setting current basal of 0.675 as temp", 
         "rate": 0.675, 
         "COB": 0, 
@@ -127,6 +123,6 @@
       "batteryVoltage": 4369
     }, 
     "device": "openaps://indy-e1", 
-    "_id": "583110bb0e76b898408f1b25"
+    "_id": "5831120c0e76b898408f1b26"
   }
 ]
