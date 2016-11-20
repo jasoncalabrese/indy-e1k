@@ -171,23 +171,6 @@
     "rssi": 213, 
     "date": 1479603419000, 
     "filtered": 172096, 
-    "type": "sgv", 
-    "glucose": 186
-  }, 
-  {
-    "trend_arrow": "45_DOWN", 
-    "display_time": "2016-11-19T16:56:59-08:00", 
-    "noise": 1, 
-    "system_time": "2016-11-20T00:44:18-08:00", 
-    "raw": 177, 
-    "direction": "FortyFiveDown", 
-    "sgv": 186, 
-    "dateString": "2016-11-19T16:56:59-08:00", 
-    "device": "openaps://indy-e1/cgm", 
-    "unfiltered": 164704, 
-    "rssi": 213, 
-    "date": 1479603419000, 
-    "filtered": 172096, 
     "_id": "5830f59e65110bbfc194aa53", 
     "type": "sgv", 
     "glucose": 186
